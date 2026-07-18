@@ -23,17 +23,13 @@
 
   .site-header {
     display: grid;
-    grid-template-columns: auto minmax(0, 1fr) auto;
+    grid-template-columns: minmax(0, 1fr) auto;
     align-items: center;
     gap: 1rem;
     margin-bottom: 0;
   }
 
-  .site-header > .avatar-link {
-    display: block;
-    align-self: center;
-    border-radius: 50%;
-  }
+ 
 
   .site-header > .title {
     display: inline-flex;
