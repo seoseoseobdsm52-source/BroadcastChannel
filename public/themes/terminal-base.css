@@ -818,7 +818,7 @@ hr {
   }
 
   .site-header {
-    grid-template-columns: 2.75rem minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
     gap: 0.75rem;
   }
 
