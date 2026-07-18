@@ -20,14 +20,7 @@ export interface SocialLinkOptions {
 
 export function buildSocialLinks(options: SocialLinkOptions): SocialLink[] {
   const links: SocialLink[] = [
-    {
-      href: options.rssUrl,
-      title: 'RSS Feed',
-      label: 'RSS Feed',
-      icon: 'ri:rss-line',
-      rel: 'alternate noopener noreferrer',
-      type: 'application/rss+xml',
-    },
+
   ]
 
   if (options.podcast) {
