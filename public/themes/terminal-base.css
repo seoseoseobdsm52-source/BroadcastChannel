@@ -178,22 +178,7 @@ hr {
   text-decoration: none;
 }
 
-/* Upstream logo block: inverted accent title + dashed accent rule */
-.site-header > .title::after {
-  content: '';
-  display: block;
-  flex: 1 1 auto;
-  min-width: 0.75rem;
-  align-self: stretch;
-  margin-right: 10px;
-  background: repeating-linear-gradient(
-    90deg,
-    var(--terminal-accent),
-    var(--terminal-accent) 2px,
-    transparent 0,
-    transparent 10px
-  );
-}
+
 
 .site-header > .title > h1 {
   flex: 0 1 auto;
